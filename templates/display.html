@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Employee</title>
+    <link rel="stylesheet" href="../static/css/mystyle.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        
+    <div class="container2">
+        <h3>Employee Detail</h3>
+        <table class="table table-bordered" >
+            <thead></thead>
+            <tbody >
+                <tr>
+                   <td>Employee ID</td>
+                   <td>{{data['id']}}</td>
+                </tr>
+                <tr>
+                    <td>Employee Name</td>
+                    <td>{{data['name']}}</td>
+                 </tr>
+                 <tr>
+                    <td>Employee DOB</td>
+                    <td>{{data['dob']}}</td>
+                 </tr><tr>
+                    <td>Employee Address</td>
+                    <td>{{data['address']}}</td>
+                 </tr><tr>
+                    <td>Employee Gender</td>
+                    <td>{{data['gender']}}</td>
+                 </tr>
+    
+        </table>
+       <div class="row justify-content-center">
+            <a href="/" class="btn btn-primary" >Add Employees </a>
+            <a href="/view" class="btn btn-warning" id="s4">Search New Employee </a> 
+       </div>
+           
+        <span class="error">{{data['error']}}</span>
+            
+    </div>
+    
+    </div>
+</body>
+</html>
