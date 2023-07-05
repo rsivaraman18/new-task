@@ -1,0 +1,59 @@
+.container1,.form{
+    color: aqua;
+    background-color: blueviolet;
+    width: fit-content;
+    display: block;
+    align-content: center;
+    margin-left: 200px ;
+    margin-top: 50px;
+    
+    padding: 15px;
+    font-weight: bolder;
+    font-size: larger;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+input{
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: larger;
+    font-weight: bolder ;
+    font-style: italic;
+    align-self: center;
+}
+
+#s1{
+    font-size: larger;
+    margin-left: 115px;
+}
+#s2{
+    font-size: larger;
+    margin-left: 265px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.row{
+    font-size: larger;
+    font-weight: bolder;
+}
+tbody{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.error{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    color: red;
+    margin-left: 450px;
+}
+
+#s3{
+    margin-left: 200px;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 30px;
+}
